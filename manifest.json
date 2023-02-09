@@ -1,0 +1,13 @@
+{
+    "name": "Scholarly Article Access",
+    "description": "Changes the url of a page to be accessed through the proxy of the UB to be able to access articles.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+        "permissions": ["storage", "tabs"]
+}
